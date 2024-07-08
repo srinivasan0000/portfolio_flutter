@@ -1,0 +1,36 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  # enable-experiment:
+  #   - macros
+  # plugins:
+  #   - custom_lint
+  language:
+    strict-casts: true
+    strict-inference: true
+    strict-raw-types: true
+
+  # exclude:
+  #   - "**/*.g.dart"
+
+  errors:
+    invalid_annotation_target: ignore
+    file_names: error
+    prefer_relative_imports: error
+    non_constant_identifier_names: error
+    camel_case_types: error
+    always_specify_types: error #try
+    unnecessary_lambdas: error
+    await_only_futures: error
+    # avoid_print: error
+    avoid_types_as_parameter_names: error
+    avoid_unused_constructor_parameters: error
+    inference_failure_on_instance_creation: error
+    # unnecessary_import: error
+    # duplicate_import: error
+    sort_child_properties_last: error
+
+linter:
+  rules:
+    constant_identifier_names: false
+    # prefer_const_constructors_in_immutables: error

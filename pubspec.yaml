@@ -1,0 +1,58 @@
+name: my_portfolio
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  web: ^0.5.1
+  animate_on_hover: ^1.0.2
+  hover_widget: ^0.1.1
+  rive: ^0.13.5
+
+  flutter_riverpod: ^2.5.1
+  flex_color_picker: ^3.5.0
+  visibility_detector: ^0.4.0+2
+  flutter_animate: ^4.5.0
+  motion: ^2.0.0
+  animated_text_kit: ^4.2.2
+  font_awesome_flutter: ^10.7.0
+  auto_size_text: ^3.0.0
+
+  # logger: ^2.3.0
+  floating_bubbles: ^2.6.2
+  metaballs: ^1.5.0
+  go_router: ^14.2.0
+  url_strategy: ^0.2.0
+
+  path: any
+  shared_preferences: ^2.2.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.9
+  flutter_lints: ^4.0.0
+  custom_lint: ^0.6.4
+  riverpod_lint: ^2.3.10
+  flutter_gen_runner: ^5.4.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/sparkles/
+    - assets/projects/
+    - assets/sparkles/buttons/
+    - assets/certifications/
+
+flutter_gen:
+  output: lib\src\core\assets\
